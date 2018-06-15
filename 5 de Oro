@@ -1,0 +1,15 @@
+function CincoDeOro(BolillaMin,BolillaMax) {
+         return Math.round(Math.random()*(BolillaMax-BolillaMin)+parseInt(BolillaMin));
+         }
+var SorteoBolillas={
+  Bolilla1:CincoDeOro(1,48),
+  Bolilla2:CincoDeOro(1,48),
+  Bolilla3:CincoDeOro(1,48),
+  Bolilla4:CincoDeOro(1,48),
+  Bolilla5:CincoDeOro(1,48),
+  BolillaExtra:CincoDeOro(1,48),
+}
+console.log(SorteoBolillas);
+
+//Queria Saber como puedo hacer para que no se repitan los numeros sorteados, y si hay alguna manera más sencillas o mejor de hacer el trabajo//
+
